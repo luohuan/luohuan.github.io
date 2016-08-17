@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-31T08:13:44.364Z</updated>
+  <updated>2016-08-17T08:37:31.195Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2016/08/17/great-wall/"/>
+    <id>http://yoursite.com/2016/08/17/great-wall/</id>
+    <published>2016-08-17T08:29:28.401Z</published>
+    <updated>2016-08-17T08:37:31.195Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<p>title: 长城软件实习<br>date: 2016-08-17 16:29:28<br>tags: 实习</p>
+<p>##长城软件实习</p>
+<p>####小组分类</p>
+<p>分为三个小组<br>1.移动开发组<br>2.J2EE网页开发组<br>3.大数据R+Spark组</p>
+<p>第一个项目</p>
+<blockquote>
+<p>文件柜项目<br>分为三种不同的底层实现<br>1、普通单电脑文件存储<br>2、中型数据规模 mongDB 2-10台左右电脑<br>3、ftps 10台以上的大规模数据系统</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: 长城软件实习&lt;br&gt;date: 2016-08-17 16:29:28&lt;br&gt;tags: 实习&lt;/p&gt;
+&lt;p&gt;##长城软件实习&lt;/p&gt;
+&lt;p&gt;####小组分类&lt;/p&gt;
+&lt;p&gt;分为三个小组&lt;br&gt;1.移动开发组&lt;br&gt;2.J2EE网页开发组&lt;br&gt;3.
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>My new post test</title>
