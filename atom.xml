@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-08-17T08:37:31.195Z</updated>
+  <updated>2016-08-17T08:42:02.721Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,15 +16,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>长城软件实习</title>
     <link href="http://yoursite.com/2016/08/17/great-wall/"/>
     <id>http://yoursite.com/2016/08/17/great-wall/</id>
-    <published>2016-08-17T08:29:28.401Z</published>
-    <updated>2016-08-17T08:37:31.195Z</updated>
+    <published>2016-08-17T08:29:28.000Z</published>
+    <updated>2016-08-17T08:42:02.721Z</updated>
     
-    <content type="html"><![CDATA[<hr>
-<p>title: 长城软件实习<br>date: 2016-08-17 16:29:28<br>tags: 实习</p>
-<p>##长城软件实习</p>
+    <content type="html"><![CDATA[<p>##长城软件实习</p>
 <p>####小组分类</p>
 <p>分为三个小组<br>1.移动开发组<br>2.J2EE网页开发组<br>3.大数据R+Spark组</p>
 <p>第一个项目</p>
@@ -35,11 +33,12 @@
     
     <summary type="html">
     
-      &lt;hr&gt;
-&lt;p&gt;title: 长城软件实习&lt;br&gt;date: 2016-08-17 16:29:28&lt;br&gt;tags: 实习&lt;/p&gt;
-&lt;p&gt;##长城软件实习&lt;/p&gt;
+      &lt;p&gt;##长城软件实习&lt;/p&gt;
 &lt;p&gt;####小组分类&lt;/p&gt;
-&lt;p&gt;分为三个小组&lt;br&gt;1.移动开发组&lt;br&gt;2.J2EE网页开发组&lt;br&gt;3.
+&lt;p&gt;分为三个小组&lt;br&gt;1.移动开发组&lt;br&gt;2.J2EE网页开发组&lt;br&gt;3.大数据R+Spark组&lt;/p&gt;
+&lt;p&gt;第一个项目&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;文件柜项目&lt;br&gt;分为三种不同的底层实现&lt;b
     
     </summary>
     
