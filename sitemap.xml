@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/08/18/maven%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2016-08-18T10:25:05.614Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/08/17/great-wall/</loc>
     
     <lastmod>2016-08-17T09:02:43.228Z</lastmod>
@@ -11,7 +18,7 @@
   <url>
     <loc>http://yoursite.com/2016/07/31/My-new-post-test/</loc>
     
-    <lastmod>2016-07-31T08:13:44.364Z</lastmod>
+    <lastmod>2016-08-17T08:50:11.143Z</lastmod>
     
   </url>
   

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-08-17T09:02:43.228Z</updated>
+  <updated>2016-08-18T10:25:05.614Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,51 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>maven学习笔记--何为maven</title>
+    <link href="http://yoursite.com/2016/08/18/maven%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2016/08/18/maven笔记/</id>
+    <published>2016-08-18T10:24:07.071Z</published>
+    <updated>2016-08-18T10:25:05.614Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="何为maven"><a href="#何为maven" class="headerlink" title="何为maven"></a>何为maven</h1><p>  maven解释为知识的积累，是一个跨平台的项目管理工具。<br>  maven主要服务于基于Java平台的项目构建、依赖管理和项目信息管理</p>
+<p> maven 解决的核心问题是简化程序员的工作，让单元测试、打包、部署等只需要一条命令能够自动的执行。构建服务。<br> maven不仅仅是构建工具还是一个依赖管理工具和项目信息管理工具</p>
+<h1 id="maven使用入门"><a href="#maven使用入门" class="headerlink" title="maven使用入门"></a>maven使用入门</h1><p>maven项目的核心是pom.xml  (project object model) 项目对象模型<br>pom定义了项目的基本信息，用于描述项目如何构建，声明项目依赖项。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&lt;project 各种xmlns文件&gt;</div><div class="line">	&lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;</div><div class="line">    &lt;groupId&gt;com.juvenxu.mvnbook&lt;/groupId&gt;</div><div class="line">    &lt;artifactId&gt;hello-word&lt;/artifactId&gt;</div><div class="line">    &lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;</div><div class="line">    &lt;name&gt;Maven hello world&lt;/name&gt;</div><div class="line">&lt;/project&gt;</div></pre></td></tr></table></figure></p>
+<p>project 是所有po.xml的根元素，还声明了一些pom相关的命名空间及xsd文件<br>元素不是必须，但是能让第三方文件快速的编辑pom文件</p>
+<h3 id="单元测试小知识"><a href="#单元测试小知识" class="headerlink" title="单元测试小知识"></a>单元测试小知识</h3><p>一个典型的单元测试包含三个部分</p>
+<pre><code>1. 准备测试类及数据
+2. 执行要测试的行为
+3. 检查结果
+</code></pre><p>所有需要执行的测试方法都以test开头同时需要有@test注解</p>
+<p>maven的主要命令</p>
+<ol>
+<li>mvn clean compile  编译</li>
+<li>mvn clean test 测试</li>
+<li>mvn clean package 打包</li>
+<li>mvn clean install 安装<br>如果直接执行后面的命令会依次的执行之前的命令。<br>mvn clean 清除目标目录生成的结果</li>
+</ol>
+<h2 id="maven坐标"><a href="#maven坐标" class="headerlink" title="maven坐标"></a>maven坐标</h2><p>maven定义的规则： 世界上任何一个构件都可以使用maven坐标唯一的标识，maven坐标的元素包括groupId、artifactId 、version、 packaging、classifier。<br>只要我们提供正确的坐标元素，maven就能找到对应的构件</p>
+<p>maven坐标为各种构件引入了秩序，任何一个构件都必须明确定义自己的坐标</p>
+<ol>
+<li>groupId : 定义当前maven 项目隶属的实际项目。一个实际项目往往会划分出很多的模块，groupId不应该只定义到组织级别。通常是公司名称加项目名称</li>
+<li>artifactId : 该元素定义实际项目中的一个maven项目也就是一个模块。推荐的做法是使用实际项目作为前缀，默认情况下Maven生成的构建会以artifactId-version作为名称</li>
+<li>version 该元素定义maven项目当前所处的版本</li>
+<li>packaging :打包的方式 默认是使用jar</li>
+<li>classifier: 该元素用来帮助定义构建输出的一些附属构建。 不能直接定义</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;何为maven&quot;&gt;&lt;a href=&quot;#何为maven&quot; class=&quot;headerlink&quot; title=&quot;何为maven&quot;&gt;&lt;/a&gt;何为maven&lt;/h1&gt;&lt;p&gt;  maven解释为知识的积累，是一个跨平台的项目管理工具。&lt;br&gt;  maven主要服务于基于Ja
+    
+    </summary>
+    
+    
+      <category term="新建,模板,小书匠" scheme="http://yoursite.com/tags/%E6%96%B0%E5%BB%BA-%E6%A8%A1%E6%9D%BF-%E5%B0%8F%E4%B9%A6%E5%8C%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>长城软件实习</title>
@@ -45,7 +90,7 @@
     <link href="http://yoursite.com/2016/07/31/My-new-post-test/"/>
     <id>http://yoursite.com/2016/07/31/My-new-post-test/</id>
     <published>2016-07-31T08:13:44.000Z</published>
-    <updated>2016-07-31T08:13:44.364Z</updated>
+    <updated>2016-08-17T08:50:11.143Z</updated>
     
     <summary type="html">
     
